@@ -1,9 +1,7 @@
-
-
 # 🛡️ Cloud Security IAM Audit
 
 ## 📌 Overview
-This project is a beginner cloud security lab focused on reviewing AWS IAM configurations to identify common security risks related to user access and permissions. The goal is to simulate real-world security issues and document them in a structured way.
+This project is a beginner cloud security lab focused on reviewing AWS IAM configurations to identify common security risks related to user access and permissions. The goal is to simulate real-world scenarios and develop skills in cloud security auditing.
 
 ---
 
@@ -53,6 +51,11 @@ Recorded findings and mitigation strategies in a structured format.
 - 💥 Risk: Users can create weak, easily guessable passwords
 - 🔐 Fix: Enforce strong password policies (length, symbols, numbers)
 
+**Evidence from AWS IAM Account Settings:**
+![AWS IAM Password Policy Configuration](https://github.com/melindalee-cyber/Cloud-Security-IAM-Audit-/blob/main/screenshot-weak-password-policy.png?raw=true)
+
+*The screenshot shows the current password policy with only a 6-character minimum requirement and no strength requirements (uppercase, lowercase, numbers, symbols), making it vulnerable to weak passwords.*
+
 ---
 
 ### 🔴 Unused Admin Account
@@ -81,25 +84,15 @@ Recorded findings and mitigation strategies in a structured format.
 ---
 
 ## 📁 Project Structure
-
-
+- `README.md` - Project documentation and findings
+- `screenshot-weak-password-policy.png` - Evidence of weak IAM password policy configuration
 
 ---
 
 ## 🚀 Outcome
-This project demonstrates a foundational understanding of cloud security and IAM risk management by identifying common misconfigurations and proposing mitigation strategies. It reflects real-world security scenarios and builds practical experience for entry-level cybersecurity roles.
+This project demonstrates a foundational understanding of cloud security and IAM risk management by identifying common misconfigurations and proposing mitigation strategies. It reflects real-world security challenges and the importance of regular auditing and policy enforcement.
 
 ---
 
 ## 📝 Notes
 This project was created for learning and professional development purposes in a controlled environment.
-
-
-
-
-
-
-
-
-
-
